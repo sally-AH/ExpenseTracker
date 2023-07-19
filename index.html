@@ -8,18 +8,39 @@
     <title>Expense Tracker</title>
 </head>
 <body>
-    <div class="container">
-        <input type="text" class="exp" placeholder="Enter the name of the Expense" id="ex-name">
-        <input type="number" class="exp" placeholder="" id="ex-num">
-        <span>$</span>
-        <input type="button" value="Add" id="btn-add" disabled>
-    </div>
-    <div class="tabl-cont">
-        <table>
-            <th><td>disc</td><td>amount</td><td></td></th>
-
+    <div class="main">
+        <div class="container">
+            <input type="text" class="exp" placeholder="Enter the name of the Expense" id="ex-name">
+            <input type="number" class="exp" placeholder="" id="ex-num">
+            <span>$</span>
+            <input type="button" value="Add" id="btn-add" disabled>
+        </div>
+        <div class="tabl-cont">
+        <table id="tempTable">
+            <thead>
+            <tr>
+                <th>Delete</th>
+                <th>Done</th>
+                <th>Expense</th>
+                <th>Amount</th>
+            </tr>
+            </thead>
+            <tbody>
+        
+            </tbody>
+            <tfoot>
+            <tr id="totalRow">
+                <td></td>
+                <td></td>
+                <td>Total</td>
+                <td id="totalAmount">0</td>
+            </tr>
+            </tfoot>
         </table>
+        </div>
     </div>
+    
+      
 
 
 

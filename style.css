@@ -1,0 +1,97 @@
+/* Beautiful CSS Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .exp {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+  }
+  
+  span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #btn-add {
+    padding: 8px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #btn-add:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .tabl-cont {
+    margin: 20px;
+    width: 100%;
+  }
+  
+  #tempTable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #tempTable th,
+  #tempTable td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #tempTable thead {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #tempTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #tempTable tfoot {
+    font-weight: bold;
+  }
+  
+  #totalRow {
+    background-color: #ddd;
+  }
+  
+  #totalAmount {
+    font-size: 18px;
+    color: #4CAF50;
+  }
+  .completed {
+    text-decoration: line-through;
+  }
